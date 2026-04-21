@@ -12,12 +12,13 @@ This project is built upon the pioneering research and implementations in the Wh
 
 - [walottie-sticker](https://github.com/thisAdo/walottie-sticker) by **thisAdo**
 - [Lottie-Whatsapp](https://github.com/Pedrozz13755/Lottie-Whatsapp) by **Pedrozz13755**
-- Huge thanks to a Reddit user that motivated this all, see the [post
-](https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/)---
+- Huge thanks to a Reddit user that motivated this all, [see the post
+](https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/)
 
-## 📦 Installation
+## 📦 Reproduce
 
-This project requires **[Bun](https://bun.sh)**. You can also use **Mise** to manage your environment if preferred.
+### 1. Installation
+> This project requires **[Bun](https://bun.sh)**. You can also use [Mise](https://mise.jdx.dev/) to manage your environment if preferred.
 
 ```bash
 # Install dependencies
@@ -26,7 +27,7 @@ bun install
 
 ---
 
-## 📁 Template Installation
+### 2. Template Installation
 
 > **This repository does not provide pre-built `.was` templates.**
 > To avoid potential copyright infringement (as templates often contain proprietary WhatsApp assets and animations), you must provide your own.
@@ -39,9 +40,9 @@ bun install
 
 ---
 
-## 🚀 Usage
+### 3. Usage
 
-### 1. Send an Image as a Sticker
+#### 1. Send an Image as a Sticker
 
 The fastest way to test is to convert an image and send it to yourself in one go:
 
@@ -49,7 +50,7 @@ The fastest way to test is to convert an image and send it to yourself in one go
 bun run send --image res/input_test.png --name "My Cool Sticker"
 ```
 
-### 2. Just Build the .was File
+#### 2. Just Build the .was File
 
 If you only want to generate the file without sending it:
 
@@ -57,7 +58,7 @@ If you only want to generate the file without sending it:
 bun run convert --image res/input_test.png --output my_sticker.was
 ```
 
-### 3. Send an Existing .was File
+#### 3. Send an Existing .was File
 
 ```bash
 bun run send --was res/output/your_sticker.was
