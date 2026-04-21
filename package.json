@@ -1,17 +1,34 @@
 {
-  "name": "walottie-sticker",
-  "version": "1.0.0",
-  "description": "Constructor de stickers Lottie animados (.was) para WhatsApp — packs bases: Chomp (Incompleto) y Pompom (Completo)",
+  "name": "was2wasticker",
+  "version": "1.1",
+  "description": "WhatsApp Lottie Sticker (.was) builder and automated sender. Convert static images into professional-grade animated stickers and deploy them directly via Baileys.",
   "type": "module",
-  "exports": "./src/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thisAdo/walottie-sticker"
+  "main": "src/img2was.js",
+  "exports": "./src/img2was.js",
+  "scripts": {
+    "convert": "node src/img2was.js",
+    "send": "node src/send.js"
   },
-  "author": "thisAdo",
-  "keywords": ["whatsapp", "sticker", "lottie", "animated", "was", "baileys"],
+  "author": "jheffersonsouza",
+  "contributors": [
+    "thisAdo",
+    "Pedrozz13755"
+  ],
+  "keywords": [
+    "whatsapp",
+    "sticker",
+    "lottie",
+    "animated",
+    "was",
+    "baileys"
+  ],
   "license": "MIT",
-  "engines": {
-    "node": ">=18"
+  "private": true,
+  "devDependencies": {},
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "pino": "^10.3.1",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0"
   }
 }
