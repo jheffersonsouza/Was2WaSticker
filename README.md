@@ -2,7 +2,7 @@
 
 Constructor de stickers Lottie animados en formato `.was` para WhatsApp.
 
-![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square) ![GitHub](https://img.shields.io/badge/github-thisAdo%2Fwalottie--sticker-181717?style=flat-square&logo=github)
+![Node](https://img.shields.io/badge/node-%3E%3D18-brightgreen?style=flat-square) ![GitHub](https://img.shields.io/badge/github-thisAdo%2Fwalottie--sticker-181717?style=flat-square&logo=github)
 
 > Fork de [Pedrozz13755/Lottie-Whatsapp](https://github.com/Pedrozz13755/Lottie-Whatsapp) 
 
