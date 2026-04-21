@@ -2,7 +2,7 @@
 
 # 🚀 .WAS to WhatsApp Sticker
 
-> **WhatsApp Lottie Sticker Builder (.was) and sender.** Convert static images into professional-grade animated stickers (`.was`) and send them directly to your connected device via Baileys.
+> **WhatsApp Lottie Sticker Builder (.was) and sender.** Convert static images into "animated" stickers model (`.was`) and send them directly to your connected device via [Baileys Lib](https://github.com/WhiskeySockets/Baileys).
 
 ---
 
@@ -12,8 +12,8 @@ This project is built upon the pioneering research and implementations in the Wh
 
 - [walottie-sticker](https://github.com/thisAdo/walottie-sticker) by **thisAdo**
 - [Lottie-Whatsapp](https://github.com/Pedrozz13755/Lottie-Whatsapp) by **Pedrozz13755**
-
----
+- Huge thanks to a Reddit user that motivated this all, see the [post
+](https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/https://www.reddit.com/r/whatsapp/comments/1sr2a2r/new_whatsapp_animated_stickers_update/)---
 
 ## 📦 Installation
 
